@@ -52,7 +52,7 @@ async function bubbleSort(array){
             if (array[j]>array[j+1]) {
                 for (let k = 0; k < bars.length; k++) {
                     if(k !== j && k!== j+1){
-                        bars[k].style.backgroundColor = "#D5CEA3";
+                        bars[k].style.backgroundColor = "royalblue";
                     }
                 }
                 let temp = array[j];
